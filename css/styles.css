@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #40514e;
+}
+
+h1 {
+  font-family: 'Mali', cursive;
+  font-size: 5.625rem;
+  color: #745739;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'B612 Mono', monospace;
+  font-size: 2.5rem;
+  color: #745739;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'B612 Mono', monospace;
+  color: #11999E;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 2;
+  font-weight: 600;
+}
+
+.top-container {
+  background-color: #fafbec;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.footer-container {
+  position: relative;
+  margin: auto;
+}
+
+.footer {
+  background-color: #fafbec;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.david {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.computer {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.horizontal-rule {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.contact-me {
+  height: 300px;
+  width: 40%;
+  margin: auto;
+}
+
+a.button-link {
+  color: #fafbec;
+  text-decoration: none;
+  border-color: #745739;
+}
+
+a.button-link:hover {
+  color: #ebefb4;
+}
+
+a.button-link:active {
+  color: #ebefb4;
+}
+
+a.button-link:visited {
+  color: #ebefb4;
+}
+
+.btn {
+  background-color: #745739;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 50px;
+  height: 60px;
+  width: 180px;
+}
+
+.btn:hover {
+  background-color: #523d28;
+}
+
+.footer-link {
+  color: #11999E;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.footer-link:hover {
+  color: #0a5e61;
+}
+
+.copyright-text {
+  color: #11999e;
+}
